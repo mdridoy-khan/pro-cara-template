@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+a:focus {
+    outline: none;
+}
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+}
+button:focus {
+    outline: none;
+}
+
+/* section title style here */
+.section_title {
+    margin-bottom: 50px;
+}
+.section_title h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+/* default card style here */
+.pro_cara_giver .card .action_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem 1rem 1rem;
+}
+/* pro care giverr style here */
+.pro_cara_giver {
+    margin: 70px 0;
+}
+.action_button .online {
+    color: green;
+}
+.action_button .ofline {
+    color: red;
+}
+.proCareCard {
+    padding-bottom: 70px;
+}
+
+/* profile details */
+.profile_details_area {
+    overflow: hidden;
+    margin: 70px 0;
+}
+.profile_details_area .user_profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+.profile_details_area .user_info .name {
+    font-size: 20px;
+}
+.profile_details_area .user_info .designation {
+    margin-bottom: 0;
+}
+.profile_details_area .user_image {
+    max-width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile_details_area .user_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile_details_area .profile_details {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.profile_details_area .tab-content {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
