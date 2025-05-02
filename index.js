@@ -1,7 +1,7 @@
 // pro care giverr card slider
 let proCareCard = new Swiper ('.proCareCard', {
     spaceBetween: 30,
-    slidesPerView: 3,
+    slidesPerView: 1,
     loop: true,
     speed: 800,
     autoplay: {

@@ -122,3 +122,36 @@ button:focus {
     border-top: 1px solid #ddd;
     padding-top: 10px;
 }
+
+
+/* our services area style here */
+.our_services_area {
+    padding: 70px 0;
+}
+.our_services_area .service-card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.our_services_area .service-card:hover {
+    transform: translateY(-5px);
+}
+
+.our_services_area .service-card img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.our_services_area .card-title {
+    font-weight: 600;
+}
+
+.our_services_area .card-text {
+    font-size: 14px;
+    color: #555;
+}
