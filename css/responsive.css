@@ -1,0 +1,36 @@
+
+@media (min-width: 576px) {
+    .section_title p {
+        font-size: 14px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) {
+    .section_title h2 {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+@media (min-width: 1200px) {
+    .section_title h2 {
+        font-size: 32px;
+    }
+    .section_title p {
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 1400px) {
+
+}

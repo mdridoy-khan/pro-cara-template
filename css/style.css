@@ -58,7 +58,7 @@ button:focus {
     margin-bottom: 50px;
 }
 .section_title h2 {
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
     color: #333;
@@ -126,7 +126,7 @@ button:focus {
 
 /* our services area style here */
 .our_services_area {
-    padding: 70px 0;
+    margin-bottom: 70px;
 }
 .our_services_area .service-card {
     border: none;
